@@ -4,13 +4,13 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Info: NextPage = () => {
   return (
     <div className="bg-red-400">
-      <h1>yaaa homepage</h1>
-      <Link href="/info">info page</Link>
+      <h1>yaaa Infopage</h1>
+      <Link href="/">home</Link>
     </div>
   );
 };
 
-export default Home;
+export default Info;
